@@ -1,0 +1,4 @@
+## Technologies
+
+- Gorm
+- PostgreSQL
