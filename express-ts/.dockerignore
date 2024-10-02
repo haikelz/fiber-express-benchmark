@@ -3,3 +3,4 @@ node_modules
 .github
 README.md
 dist
+.env.example

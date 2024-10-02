@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: test-benchmark-golang
+    volumes:
+      - .:/app
+    port:
+      - "5000:5000"
+    env:
+      path: .env
+      required: true
